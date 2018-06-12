@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* { margin: 0; padding: 0; }
+body, html { height: 100%; }
+ul { list-style-type: none; }
+a { text-decoration: none; }
+
+h1, h2, h3, h4, h5, h6, p { color: #5a4d72; }
+
+h1 { font-size: 2em; text-align: center; color: #000; text-decoration: underline;  	}
+h2 { font-size: 1.5em; color: #000; 	}
+h3 { font-size: 1.17em; color: #000; }
+h4 { font-size: 1.12em; color: #000; }
+h5 { font-size: .83em; color: #000; 	}
+h6 { font-size: .75em; color: #000; 	}
+p  { font-size: 2px; color: #000; 	}
+
+#container {
+	display: table;
+	margin: 0 auto;
+}
+
+
+#container h4 { padding-bottom: 20px; }
+
+#Ido { 
+	width: 335px;
+	margin: 20px auto;
+	display: table;
+}
+
+#yesNoContainer {
+	margin: 0 auto;
+    display: table;
+}
+
+ul li {
+	display: inline;
+}
+
+#liYes {
+	margin-right: 20px;
+}
+
+#submit button {
+	padding: 3px 20px;
+	background-color: lightgray;
+}
+
+#submit {
+	margin-top: 20px;
+    float: right;
+}
+
+
+
+
+
+
+
