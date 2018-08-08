@@ -18,7 +18,11 @@ p  { font-size: 8px; color: #000; 	}
 main { margin-bottom: 100px; }
 
 #container { display: table; margin: 0 auto; }
-#container h4 { padding-bottom: 20px; }
+#container h4 { 
+	padding-bottom: 20px; 
+	text-align: center;
+    line-height: 26px;
+}
 
 #Ido { 
 	width: 335px;
