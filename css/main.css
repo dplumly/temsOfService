@@ -15,16 +15,9 @@ h5 { font-size: .93em; color: #000; line-height: 22px; 	}
 h6 { font-size: .75em; color: #000; 	}
 p  { font-size: 8px; color: #000; 	}
 
-main {
-	margin-bottom: 100px;
-}
+main { margin-bottom: 100px; }
 
-#container {
-	display: table;
-	margin: 0 auto;
-}
-
-
+#container { display: table; margin: 0 auto; }
 #container h4 { padding-bottom: 20px; }
 
 #Ido { 
@@ -33,24 +26,17 @@ main {
 	display: table;
 }
 
-#yesNoContainer {
-	margin: 0 auto;
-    display: table;
-}
+#yesNoContainer { margin: 0 auto; display: table; }
+
 #container ul#questions li {
 	margin: 20px 10px 20px 0;
     list-style-type: square;
     display: list-item;
 }
 
-#container ul li {
-	display: inline;
-	margin: 0 20px;
-}
+#container ul li { display: inline; margin: 0 20px; }
 
-#liYes {
-	margin-right: 20px;
-}
+#ifYes { margin-right: 20px; }
 
 #submit button {
 	padding: 3px 20px;
@@ -66,8 +52,18 @@ main {
 	margin-bottom: 20px;
 }
 
+#yesNoContainer input#button {
+    padding: 10px 20px;
+    float: right;
+    border-radius: 8px;
+    background: lightskyblue;
+    color: #fff;
+}
+
 #Ido p {
 	white-space: nowrap;
+    margin-top: 27px;
+    text-align: center;
 }
 
 
