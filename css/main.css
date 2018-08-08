@@ -66,6 +66,9 @@ main {
 	margin-bottom: 20px;
 }
 
+#Ido p {
+	white-space: nowrap;
+}
 
 
 
